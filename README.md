@@ -1,4 +1,4 @@
-#🍔 Fast Burger 011
+##🍔 Fast Burger 011
 Um Web App de delivery 100% funcional e responsivo (mobile-first), construído para simular o fluxo completo de um e-commerce de fast-food. O projeto engloba desde a listagem dinâmica do cardápio até o gerenciamento complexo do carrinho e envio do pedido para um banco de dados relacional.
 
 🌍 **Acesse a aplicação rodando ao vivo aqui - https://fast-burger-one.vercel.app/
@@ -31,7 +31,7 @@ APIs Nativas
 Geolocalização: Integração com a API nativa do navegador para buscar a latitude e longitude do usuário, convertendo em endereço legível e acelerando o processo de checkout.
 
 ## 📋 Funcionalidades Principais
-[x] Consumo de cardápio via API Restful.
+Consumo de cardápio via API Restful.
 
 Filtros e scroll automático (âncoras) por categorias no cardápio.
 
@@ -43,7 +43,7 @@ Formulário de checkout com validação de telefone (Regex) e geolocalização.
 
 Rota administrativa (/admin) para visualização dos pedidos recebidos no Supabase.
 
-⚙️ Rodando o projeto localmente
+## ⚙️ Rodando o projeto localmente
 Pré-requisitos: Node.js v18+ e uma conta no Supabase.
 
 Clone o repositório:
