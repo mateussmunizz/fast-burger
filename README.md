@@ -1,16 +1,16 @@
-🍔 Fast Burger 011
+#🍔 Fast Burger 011
 Um Web App de delivery 100% funcional e responsivo (mobile-first), construído para simular o fluxo completo de um e-commerce de fast-food. O projeto engloba desde a listagem dinâmica do cardápio até o gerenciamento complexo do carrinho e envio do pedido para um banco de dados relacional.
 
-🌍 Acesse a aplicação rodando ao vivo aqui - https://fast-burger-one.vercel.app/
+🌍 **Acesse a aplicação rodando ao vivo aqui - https://fast-burger-one.vercel.app/
 
-🎯 O Desafio e a Solução
+## 🎯 O Desafio e a Solução
 O objetivo deste projeto foi criar uma experiência de usuário sem atritos, típica de grandes aplicativos de delivery. Para isso, a arquitetura foi desenhada separando claramente as responsabilidades:
 
 O estado da interface (carrinho, usuário) é gerenciado globalmente no front-end.
 
 A persistência de dados (cardápio, histórico de pedidos) é delegada a um backend como serviço (BaaS), garantindo respostas rápidas e escalabilidade.
 
-🛠️ Stack Tecnológico e Decisões de Arquitetura
+## 🛠️ Stack Tecnológico e Decisões de Arquitetura
 Front-end
 React.js (com Vite): Escolhido pela performance na compilação e componentização eficiente da interface.
 
@@ -30,7 +30,7 @@ Tabela orders: Recebe o payload (JSON) completo do carrinho via requisições PO
 APIs Nativas
 Geolocalização: Integração com a API nativa do navegador para buscar a latitude e longitude do usuário, convertendo em endereço legível e acelerando o processo de checkout.
 
-📋 Funcionalidades Principais
+## 📋 Funcionalidades Principais
 [x] Consumo de cardápio via API Restful.
 
 Filtros e scroll automático (âncoras) por categorias no cardápio.
