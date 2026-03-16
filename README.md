@@ -1,7 +1,7 @@
-##🍔 Fast Burger 011
+## 🍔 Fast Burger 011
 Um Web App de delivery 100% funcional e responsivo (mobile-first), construído para simular o fluxo completo de um e-commerce de fast-food. O projeto engloba desde a listagem dinâmica do cardápio até o gerenciamento complexo do carrinho e envio do pedido para um banco de dados relacional.
 
-🌍 **Acesse a aplicação rodando ao vivo aqui - https://fast-burger-one.vercel.app/
+🌍 Acesse a aplicação rodando ao vivo aqui - https://fast-burger-one.vercel.app/
 
 ## 🎯 O Desafio e a Solução
 O objetivo deste projeto foi criar uma experiência de usuário sem atritos, típica de grandes aplicativos de delivery. Para isso, a arquitetura foi desenhada separando claramente as responsabilidades:
