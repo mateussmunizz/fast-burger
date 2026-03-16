@@ -39,7 +39,7 @@ function CreateOrder() {
     if (!cart.length) return <EmptyCart />
 
     return (
-        <div className="px-4 py-6">
+        <div className="px-4 py-6 pb-32">
             <h2 className="mb-8 text-xl font-semibold">
                 Pronto para fazer o seu pedido?
             </h2>
@@ -77,7 +77,7 @@ function CreateOrder() {
                     <label className="sm:basis-40">Endereço</label>
                     <div className="grow">
                         <input
-                            className="input w-full"
+                            className={`input w-full ${!position.latitude && !position.longitude ? 'pr-36 md:pr-40' : ''}`}
                             type="text"
                             name="address"
                             disabled={isLoadingAddress}
@@ -92,7 +92,7 @@ function CreateOrder() {
                     </div>
 
                     {!position.latitude && !position.longitude && (
-                        <span className="absolute right-[3px] top-[3px] z-50 md:right-[5px] md:top-[5px]">
+                        <span className="absolute right-[3px] top-[34px] z-50 sm:top-[3px] md:right-[5px] md:top-[5px]">
                             <Button
                                 disabled={isLoadingAddress}
                                 type="small"
