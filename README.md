@@ -49,11 +49,11 @@ Pré-requisitos: Node.js v18+ e uma conta no Supabase.
 Clone o repositório:
 
 Bash
-git clone https://github.com/SEU_USUARIO/fast-burger-011.git
+git clone https://github.com/SEU_USUARIO/fast-burger.git
 Acesse a pasta e instale as dependências:
 
 Bash
-cd fast-burger-011
+cd fast-burger
 npm install
 Configure as variáveis de ambiente:
 Crie um arquivo .env na raiz do projeto e adicione suas credenciais do Supabase:
