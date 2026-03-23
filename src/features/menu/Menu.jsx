@@ -1,8 +1,6 @@
-import { useLoaderData } from 'react-router-dom'
-import { useSelector } from 'react-redux'
+import { useLoaderData, useSearchParams } from 'react-router-dom'
 import { getMenu } from '../../services/apiRestaurant'
 import MenuItem from './MenuItem'
-import { getSearchTerm } from '../cart/cartSlice'
 
 export async function loader() {
     const menu = await getMenu()
@@ -11,7 +9,10 @@ export async function loader() {
 
 export default function Menu() {
     const menu = useLoaderData()
-    const searchTerm = useSelector(getSearchTerm)
+
+    const [searchParams] = useSearchParams()
+
+    const searchTerm = searchParams.get('search') || ''
 
     const filteredMenu = menu.filter((item) =>
         item.name.toLowerCase().includes(searchTerm.toLowerCase())
